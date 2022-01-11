@@ -1,0 +1,2 @@
+# hotel-reviews
+The following script uses a hotel dataset with reviews across the US and measures how positive or negative a review is. To make it easier to distinguish between the two, I decided to make use of the latitude and longitude included in the dataset and make a visualization. The PNG file attached shows a map of the US and its respective review score in the dataset. The true output will show the score of any hotel when hovering over it, the PNG file is just an example. 
