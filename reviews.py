@@ -18,7 +18,7 @@ def getStatedf(state):
     return statedf
     
 # With this split list comprehension
-# I can make any df that I want by calling the index I want
+# We can make any df by calling it's index I want
 # Ex: WAdf = split[2]
 split = [getStatedf(states[i]) for i in range(len(states))]
 #We can also read any of the files made and use those as df, but utilizing this list is more practical
